@@ -2,6 +2,11 @@
 name = "falco"
 version = "0.1.0"
 edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[[bin]]
+name = "falco"
+path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0.104"
